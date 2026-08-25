@@ -15,12 +15,12 @@
 
 ## 👨‍💻 Sobre mí
 
-Estudiante de **Tecnología en Desarrollo de Software** (5.º semestre) en el **Tecnológico Comfenalco**. Me enfoco en el desarrollo de soluciones robustas con **Java** y **Spring Boot**, diseño de aplicaciones de escritorio interactivas con **TypeScript / Electron**, y la integración de **Inteligencia Artificial** (Google Gemini) para crear experiencias de software modernas y de alto valor.
+Estudiante de **Tecnología en Desarrollo de Software** (5.º semestre) en el **Tecnológico Comfenalco**. Me enfoco en el desarrollo de soluciones sólidas y escalables con **Java** y **Spring Boot**, diseño de aplicaciones de escritorio interactivas con **TypeScript / Electron**, y la integración de **Inteligencia Artificial** (Google Gemini) para crear experiencias de software modernas y de alto valor.
 
 - 🎓 **Formación:** 5.º semestre de Tecnología en Desarrollo de Software (TDS).
-- 💡 **Enfoque principal:** Arquitectura limpia en APIs REST, seguridad y control de acceso (Spring Security / RBAC), desarrollo asíncrono y persistencia relacional.
-- ⚡ **Experiencia práctica:** Plataformas web turísticas bilingües con IA, reproductores desktop con Web APIs y bots automatizados para productividad académica en la nube.
-- 🎯 **Objetivo:** Continuar creando proyectos escalables, explorando nuevas tecnologías y aportando soluciones de calidad técnica.
+- 💡 **Metodología y Filosofía de Trabajo:** Desarrollo y programo mis soluciones **de forma manual y estructurada**, diseñando la arquitectura, la lógica de negocio y las buenas prácticas desde las bases, y utilizando el **respaldo de la Inteligencia Artificial** como copiloto técnico para optimizar código, depurar algoritmos, fortalecer casos de prueba y elevar la calidad del software a un estándar superior.
+- ⚡ **Experiencia práctica:** Plataformas web turísticas y cívicas, aplicaciones desktop con Web APIs y bots automatizados para productividad académica en la nube.
+- 🎯 **Objetivo:** Continuar creando proyectos escalables, explorando nuevas tecnologías y aportando soluciones de alta calidad técnica.
 
 ---
 
@@ -114,11 +114,23 @@ Estudiante de **Tecnología en Desarrollo de Software** (5.º semestre) en el **
 
 ---
 
-### 🚛 5. [XYZ API — Gestión de Flota y Conductores](https://github.com/josezambranol/xyz-api)
-> **API REST para la administración de vehículos de transporte y asignación de conductores con control de acceso por roles.**
+## 🤝 Colaboraciones en Otros Repositorios
 
-- 🔐 **Spring Security & Basic Auth:** Autenticación estricta con roles diferenciados (`ADMIN` para creación, `SUPERVISOR` para asignación).
-- 📦 **Stack:** `Java 21` · `Spring Boot` · `Spring Security 6` · `Spring Data JPA` · `H2 Database` · `Maven`.
+### 💧 [Agua-Vigía CTG](https://github.com/CarlosBecharaDev/Agua-Vigia-CTG) — *Plataforma Ciudadana de Monitoreo del Servicio de Agua en Cartagena*
+> **Colaborador activo en arquitectura Fullstack, integración en tiempo real y pruebas automatizadas.**
+
+- 📡 **Integración en Tiempo Real & APIs:** Conexión con APIs de Acuacar y ArcGIS para reflejar el estado del servicio en vivo y canal de comunicación con **Server-Sent Events (SSE)**.
+- 📱 **Frontend & Experiencia Offline:** Rediseño de interfaz con **Framer Motion**, sistema de reportes georreferenciados de incidencias y soporte PWA con persistencia offline.
+- 🧪 **Testing & Accesibilidad:** Cobertura de pruebas E2E con **Playwright**, auditorías de accesibilidad con **Axe** y pruebas unitarias en backend.
+- 👥 *Repositorio oficial:* [CarlosBecharaDev/Agua-Vigia-CTG](https://github.com/CarlosBecharaDev/Agua-Vigia-CTG)
+
+---
+
+### 🚛 [XYZ API](https://github.com/josezambranol/xyz-api) — *Gestión de Flota y Conductores con RBAC*
+> **API REST con Spring Security 6, autenticación Basic Auth y control estricto de roles.**
+
+- 🔐 **Roles Granulares:** Diferenciación de accesos entre administradores (`ADMIN` para altas de flota) y supervisores (`SUPERVISOR` para asignación de conductores).
+- 👥 *Colaboración académica con:* Rafael Sarmiento Peña.
 
 ---
 
@@ -126,8 +138,8 @@ Estudiante de **Tecnología en Desarrollo de Software** (5.º semestre) en el **
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=josezambranol&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=josezambranol&layout=compact&theme=radical&hide_border=true&langs_count=6" alt="Top Languages" width="48%" />
+<img src="https://github-stats-alpha.vercel.app/api?username=josezambranol&show_icons=true&theme=radical&hide_border=true" alt="Estadísticas de GitHub" width="48%" />
+<img src="https://streak-stats.demolab.com/?user=josezambranol&theme=radical&hide_border=true" alt="Racha de GitHub" width="48%" />
 
 </div>
 
@@ -146,5 +158,5 @@ Estudiante de **Tecnología en Desarrollo de Software** (5.º semestre) en el **
 <br>
 
 <div align="center">
-  <sub>Construyendo software con pasión, dedicación y código limpio 💻✨</sub>
+  <sub>Construyendo software con pasión, dedicación artesanal y respaldo de IA 💻✨</sub>
 </div>
