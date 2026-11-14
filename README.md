@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.gif?v=4" width="100%" alt="Banner Jose Daniel Zambrano Luna" />
+<img src="./assets/banner.gif?v=5" width="100%" alt="Banner Jose Daniel Zambrano Luna" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-josedanielluna-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josedanielluna)
 [![Email](https://img.shields.io/badge/Email-josedaniellunamarimon@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:josedaniellunamarimon@gmail.com)
@@ -47,12 +47,27 @@ Desarrollador enfocado en **Backend con Java (17/21) y Spring Boot 3**, construc
 
 ## 🚀 Proyectos Destacados
 
-| Proyecto | Enfoque y Capacidades | Stack & CI |
-| :--- | :--- | :--- |
-| ⛵ **[Odyssey](https://github.com/josezambranol/Odyssey)** | Plataforma turística bilingüe para Cartagena con API REST v1 (Swagger), consultas geoespaciales, OTP por correo y asistente híbrido Gemini AI. | `Java 21` · `Spring Boot` · `MySQL` · `MongoDB` · `Redis` · `Docker` · `29 Tests CI` |
-| 🏋️ **[CalisTrainer](https://github.com/josezambranol/calis-trainer)** | Plataforma PWA de entrenamiento personal en casa sin material, sobrecarga progresiva, modo offline, pagos sandbox y coach interactivo. | `Java 21` · `Spring Boot 3.5` · `React 19` · `TS` · `PostgreSQL` · `Playwright` · `CI/CD` |
-| 💈 **[Barber-Pro](https://github.com/josezambranol/barber-pro)** | Sistema de agendamiento y gestión con reservas por token único `UUID v4`, panel RBAC con JWT rotativo, Bucket4j, Jsoup y auditoría. | `Java 17` · `Spring Boot 3.3` · `Spring Security 6` · `PostgreSQL` · `Flyway` · `CI` |
-| 🤖 **[MiniJefe Bot](https://github.com/josezambranol/minijefe-discord-bot)** | Bot de Discord 24/7 para control de horarios académicos y recordatorios con procesamiento de fechas en lenguaje natural en español. | `Python 3.12` · `Discord.py` · `aiosqlite` · `Render` |
+### ⛵ [Odyssey](https://github.com/josezambranol/Odyssey) · [![CI](https://github.com/josezambranol/Odyssey/actions/workflows/ci.yml/badge.svg)](https://github.com/josezambranol/Odyssey/actions/workflows/ci.yml)
+Plataforma turística bilingüe para Cartagena con **API REST v1 (Swagger)**, consultas geoespaciales, verificación **OTP por correo** y asistente híbrido con **Google Gemini**.  
+`Java 21` · `Spring Boot 3.2` · `Spring Security 6` · `MySQL 8` · `MongoDB 7` · `Redis 7` · `Docker` · `29 Tests CI`
+
+<br/>
+
+### 🏋️ [CalisTrainer](https://github.com/josezambranol/calis-trainer) · [![CI](https://github.com/josezambranol/calis-trainer/actions/workflows/ci.yml/badge.svg)](https://github.com/josezambranol/calis-trainer/actions/workflows/ci.yml)
+Aplicación web progresiva (**PWA**) de entrenamiento personal en casa sin material, sobrecarga progresiva adaptativa, modo offline y pasarela de pagos sandbox.  
+`Java 21` · `Spring Boot 3.5` · `React 19` · `TypeScript` · `PostgreSQL 16` · `Flyway` · `Testcontainers` · `Playwright`
+
+<br/>
+
+### 💈 [Barber-Pro](https://github.com/josezambranol/barber-pro) · [![CI](https://github.com/josezambranol/barber-pro/actions/workflows/ci.yml/badge.svg)](https://github.com/josezambranol/barber-pro/actions/workflows/ci.yml)
+Sistema de agendamiento con reservas públicas por token único **`UUID v4`**, panel **RBAC con JWT rotativo**, rate limiting (**Bucket4j**), sanitización XSS y auditoría.  
+`Java 17` · `Spring Boot 3.3` · `Spring Security 6` · `PostgreSQL` · `Flyway` · `Docker` · `JUnit 5`
+
+<br/>
+
+### 🤖 [MiniJefe Bot](https://github.com/josezambranol/minijefe-discord-bot)
+Bot de Discord **24/7** para control de horarios académicos y recordatorios con procesamiento de fechas en lenguaje natural en español.  
+`Python 3.12` · `Discord.py` · `aiosqlite` · `Render`
 
 ---
 
