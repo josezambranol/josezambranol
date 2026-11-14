@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:0284c7,100:0ea5e9&height=165&section=header&text=Jos%C3%A9%20Daniel%20Zambrano%20Luna&fontSize=36&fontColor=ffffff&fontAlignY=38&desc=Desarrollador%20Backend%20Java%20%26%20Fullstack%20%7C%20Spring%20Boot%20%C2%B7%20SQL%20%C2%B7%20Docker&descSize=16&descAlignY=62" width="100%" alt="Banner José Daniel Zambrano Luna" />
+<img src="./assets/banner.svg" width="100%" alt="Banner José Daniel Zambrano Luna" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-josedanielluna-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josedanielluna)
 [![Email](https://img.shields.io/badge/Email-josedaniellunamarimon@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:josedaniellunamarimon@gmail.com)
