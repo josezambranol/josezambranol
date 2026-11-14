@@ -1,49 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="José Daniel Zambrano Luna - Desarrollador Backend Java y Fullstack">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Jose Daniel Zambrano Luna - Backend Java &amp; Fullstack Developer">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a" />
-      <stop offset="55%" stop-color="#1e3a8a" />
-      <stop offset="100%" stop-color="#0284c7" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <radialGradient id="glowLeft" cx="15%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowRight" cx="85%" cy="75%" r="55%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.7" />
+    </linearGradient>
+
+    <linearGradient id="roleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#818cf8" />
+      <stop offset="60%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1" />
+
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94a3b8" fill-opacity="0.16" />
     </pattern>
   </defs>
 
-  <rect width="1200" height="240" rx="16" fill="url(#bgGrad)" />
-  <rect width="1200" height="240" rx="16" fill="url(#grid)" />
+  <!-- Base card -->
+  <rect x="2" y="2" width="1196" height="276" rx="18" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="2" />
+  <rect x="2" y="2" width="1196" height="276" rx="18" fill="url(#dots)" />
+  <rect x="2" y="2" width="1196" height="276" rx="18" fill="url(#glowLeft)" />
+  <rect x="2" y="2" width="1196" height="276" rx="18" fill="url(#glowRight)" />
 
-  <!-- Decorative glow circles -->
-  <circle cx="1050" cy="40" r="140" fill="#38bdf8" fill-opacity="0.12" />
-  <circle cx="140" cy="210" r="110" fill="#6366f1" fill-opacity="0.14" />
-
-  <!-- Subtle code motif on the right -->
-  <g fill="#e0f2fe" fill-opacity="0.16" font-family="Consolas, 'Courier New', monospace" font-size="16">
-    <text x="930" y="75">@RestController</text>
-    <text x="930" y="102">SpringBoot · Java 21</text>
-    <text x="930" y="129">PostgreSQL · Docker</text>
-    <text x="930" y="156">JWT · RBAC · CI/CD</text>
+  <!-- Top-left status badge -->
+  <g transform="translate(56, 40)">
+    <rect x="0" y="0" width="276" height="28" rx="14" fill="#0f2922" stroke="#10b981" stroke-opacity="0.5" stroke-width="1" />
+    <circle cx="16" cy="14" r="4.5" fill="#34d399" />
+    <text x="29" y="18.5" fill="#6ee7b7" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.8">
+      DISPONIBLE · CONTRATO DE APRENDIZAJE
+    </text>
   </g>
 
-  <!-- Accent bar -->
-  <rect x="72" y="54" width="6" height="132" rx="3" fill="url(#accentGrad)" />
-
-  <!-- Main Title -->
-  <text x="98" y="104" fill="#ffffff" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="0.5">
-    José Daniel Zambrano Luna
+  <!-- Name (without tilde) -->
+  <text x="56" y="118" fill="#f8fafc" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="0.2">
+    Jose Daniel Zambrano Luna
   </text>
 
-  <!-- Subtitle -->
-  <text x="98" y="144" fill="#bae6fd" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600">
+  <!-- Role with neon gradient -->
+  <text x="56" y="154" fill="url(#roleGrad)" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="0.3">
     Desarrollador Backend Java &amp; Fullstack
   </text>
 
-  <!-- Tech pills line -->
-  <text x="98" y="178" fill="#cbd5e1" font-family="Consolas, 'Courier New', monospace" font-size="16">
-    Spring Boot 3  ·  Spring Security 6  ·  PostgreSQL / MySQL  ·  Docker  ·  GitHub Actions
+  <!-- Tagline -->
+  <text x="56" y="182" fill="#94a3b8" font-family="'Segoe UI', Arial, sans-serif" font-size="14.5">
+    APIs REST seguras · Arquitectura modular · Pruebas automatizadas &amp; CI/CD
   </text>
+
+  <!-- Tech pills -->
+  <g transform="translate(56, 206)" font-family="Consolas, 'Courier New', monospace" font-size="12.5" font-weight="600">
+    <rect x="0" y="0" width="84" height="28" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-opacity="0.55" />
+    <text x="42" y="18.5" text-anchor="middle" fill="#fbbf24">Java 21</text>
+
+    <rect x="94" y="0" width="124" height="28" rx="6" fill="#1e293b" stroke="#22c55e" stroke-opacity="0.55" />
+    <text x="156" y="18.5" text-anchor="middle" fill="#4ade80">Spring Boot 3</text>
+
+    <rect x="228" y="0" width="106" height="28" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.55" />
+    <text x="281" y="18.5" text-anchor="middle" fill="#7dd3fc">PostgreSQL</text>
+
+    <rect x="344" y="0" width="76" height="28" rx="6" fill="#1e293b" stroke="#60a5fa" stroke-opacity="0.55" />
+    <text x="382" y="18.5" text-anchor="middle" fill="#93c5fd">Docker</text>
+
+    <rect x="430" y="0" width="102" height="28" rx="6" fill="#1e293b" stroke="#c084fc" stroke-opacity="0.55" />
+    <text x="481" y="18.5" text-anchor="middle" fill="#d8b4fe">JWT · RBAC</text>
+  </g>
+
+  <!-- Right-side Aesthetic IDE Code Card -->
+  <g transform="translate(725, 36)">
+    <rect x="0" y="0" width="420" height="208" rx="12" fill="#0b1120" fill-opacity="0.92" stroke="#334155" stroke-width="1.2" />
+    <!-- Window top bar -->
+    <rect x="0" y="0" width="420" height="32" rx="12" fill="#1e293b" fill-opacity="0.7" />
+    <rect x="0" y="20" width="420" height="12" fill="#1e293b" fill-opacity="0.7" />
+    <circle cx="18" cy="16" r="5" fill="#ef4444" />
+    <circle cx="35" cy="16" r="5" fill="#f59e0b" />
+    <circle cx="52" cy="16" r="5" fill="#22c55e" />
+    <text x="210" y="20" text-anchor="middle" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" font-size="12">
+      DeveloperProfile.java
+    </text>
+
+    <!-- Code lines -->
+    <g font-family="Consolas, 'Courier New', monospace" font-size="13">
+      <text x="20" y="60" fill="#475569">1</text>
+      <text x="44" y="60" fill="#fbbf24">@RestController</text>
+
+      <text x="20" y="84" fill="#475569">2</text>
+      <text x="44" y="84" fill="#c084fc">public class</text>
+      <text x="148" y="84" fill="#38bdf8">JoseZambrano</text>
+      <text x="252" y="84" fill="#e2e8f0">{</text>
+
+      <text x="20" y="108" fill="#475569">3</text>
+      <text x="60" y="108" fill="#94a3b8">String</text>
+      <text x="115" y="108" fill="#e2e8f0">focus =</text>
+      <text x="178" y="108" fill="#4ade80">"Backend &amp; Security"</text><text x="348" y="108" fill="#e2e8f0">;</text>
+
+      <text x="20" y="132" fill="#475569">4</text>
+      <text x="60" y="132" fill="#94a3b8">String</text>
+      <text x="115" y="132" fill="#e2e8f0">city  =</text>
+      <text x="178" y="132" fill="#4ade80">"Cartagena, CO"</text><text x="306" y="132" fill="#e2e8f0">;</text>
+
+      <text x="20" y="156" fill="#475569">5</text>
+      <text x="60" y="156" fill="#94a3b8">boolean</text>
+      <text x="124" y="156" fill="#e2e8f0">ciGreen =</text>
+      <text x="202" y="156" fill="#38bdf8">true</text><text x="235" y="156" fill="#e2e8f0">;</text>
+
+      <text x="20" y="180" fill="#475569">6</text>
+      <text x="44" y="180" fill="#e2e8f0">}</text>
+    </g>
+  </g>
 </svg>
