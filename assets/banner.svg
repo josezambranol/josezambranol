@@ -41,7 +41,7 @@
 
   <!-- Top-left status badge -->
   <g transform="translate(56, 40)">
-    <rect x="0" y="0" width="276" height="28" rx="14" fill="#0f2922" stroke="#10b981" stroke-opacity="0.5" stroke-width="1" />
+    <rect x="0" y="0" width="322" height="28" rx="14" fill="#0f2922" stroke="#10b981" stroke-opacity="0.55" stroke-width="1" />
     <circle cx="16" cy="14" r="4.5" fill="#34d399" />
     <text x="29" y="18.5" fill="#6ee7b7" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.8">
       DISPONIBLE · CONTRATO DE APRENDIZAJE
@@ -100,24 +100,16 @@
       <text x="44" y="60" fill="#fbbf24">@RestController</text>
 
       <text x="20" y="84" fill="#475569">2</text>
-      <text x="44" y="84" fill="#c084fc">public class</text>
-      <text x="148" y="84" fill="#38bdf8">JoseZambrano</text>
-      <text x="252" y="84" fill="#e2e8f0">{</text>
+      <text x="44" y="84"><tspan fill="#c084fc">public class</tspan> <tspan fill="#38bdf8">JoseZambrano</tspan> <tspan fill="#e2e8f0">{</tspan></text>
 
       <text x="20" y="108" fill="#475569">3</text>
-      <text x="60" y="108" fill="#94a3b8">String</text>
-      <text x="115" y="108" fill="#e2e8f0">focus =</text>
-      <text x="178" y="108" fill="#4ade80">"Backend &amp; Security"</text><text x="348" y="108" fill="#e2e8f0">;</text>
+      <text x="60" y="108"><tspan fill="#94a3b8">String</tspan> <tspan fill="#e2e8f0">focus =</tspan> <tspan fill="#4ade80">"Backend &amp; Security"</tspan><tspan fill="#e2e8f0">;</tspan></text>
 
       <text x="20" y="132" fill="#475569">4</text>
-      <text x="60" y="132" fill="#94a3b8">String</text>
-      <text x="115" y="132" fill="#e2e8f0">city  =</text>
-      <text x="178" y="132" fill="#4ade80">"Cartagena, CO"</text><text x="306" y="132" fill="#e2e8f0">;</text>
+      <text x="60" y="132"><tspan fill="#94a3b8">String</tspan> <tspan fill="#e2e8f0">city  =</tspan> <tspan fill="#4ade80">"Cartagena, CO"</tspan><tspan fill="#e2e8f0">;</tspan></text>
 
       <text x="20" y="156" fill="#475569">5</text>
-      <text x="60" y="156" fill="#94a3b8">boolean</text>
-      <text x="124" y="156" fill="#e2e8f0">ciGreen =</text>
-      <text x="202" y="156" fill="#38bdf8">true</text><text x="235" y="156" fill="#e2e8f0">;</text>
+      <text x="60" y="156"><tspan fill="#94a3b8">boolean</tspan> <tspan fill="#e2e8f0">ciGreen =</tspan> <tspan fill="#38bdf8">true</tspan><tspan fill="#e2e8f0">;</tspan></text>
 
       <text x="20" y="180" fill="#475569">6</text>
       <text x="44" y="180" fill="#e2e8f0">}</text>
