@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.gif?v=5" width="100%" alt="Banner Jose Daniel Zambrano Luna" />
+<img src="./assets/banner.gif?v=6" width="100%" alt="Banner Jose Daniel Zambrano Luna" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-josedanielluna-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josedanielluna)
 [![Email](https://img.shields.io/badge/Email-josedaniellunamarimon@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:josedaniellunamarimon@gmail.com)
