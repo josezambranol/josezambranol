@@ -48,8 +48,8 @@ Desarrollador enfocado en **Backend con Java (17/21) y Spring Boot 3**, construc
 ## 🚀 Proyectos Destacados
 
 ### ⛵ [Odyssey](https://github.com/josezambranol/Odyssey) · [![CI](https://github.com/josezambranol/Odyssey/actions/workflows/ci.yml/badge.svg)](https://github.com/josezambranol/Odyssey/actions/workflows/ci.yml)
-Plataforma turística bilingüe para Cartagena con **API REST v1 (Swagger)**, consultas geoespaciales, verificación **OTP por correo** y asistente híbrido con **Google Gemini**.  
-`Java 21` · `Spring Boot 3.2` · `Spring Security 6` · `MySQL 8` · `MongoDB 7` · `Redis 7` · `Docker` · `29 Tests CI`
+Plataforma turística bilingüe (**ES / EN**) para Cartagena con **API REST v1 (Swagger)**, consultas geoespaciales Haversine, verificación **OTP por correo** y asistente híbrido con **Google Gemini**.  
+`Java 21` · `Spring Boot 3.2` · `Spring Security 6` · `MySQL 8` · `Thymeleaf` · `Leaflet` · `Docker` · `34 Tests CI`
 
 <br/>
 
